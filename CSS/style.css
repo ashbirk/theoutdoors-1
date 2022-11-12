@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: 'kanitregular';
+    src: url('kanit-regular.woff2') format('woff2'),
+         url('kanit-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: center;
+}
+h3 {
+    vertical-align: top;
+    color: black;
+}
+p {
+    vertical-align: top;
+    font-size: small;
+    color: black;
+}
+.width {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex: wrap;
+}
+body {
+    justify-items: center;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
